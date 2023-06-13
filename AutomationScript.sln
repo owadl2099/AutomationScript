@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{6B996627-A087-43CF-A7FB-E46D163F6642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{54431445-4FEC-4019-9E85-218829898183}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{703AF853-26B2-4A93-A6CF-24671B090F52}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{8E5BB47E-4306-4622-AE69-7260F1833602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{5ABEB0F5-8868-4639-936C-31EB4A097A4A}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F5BCEEBE-4730-404D-A5E0-FC5F36950292}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{729AAAB4-1A78-4F2B-9C7B-C5EE42DD3DBA}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlbeMiner_script1", "AlbeMiner_script1", "{8029BDB7-5D13-4210-B44C-A2E2F875F58E}"
+	ProjectSection(SolutionItems) = preProject
+		AlbeMiner_script1.xml = AlbeMiner_script1.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{BFA4A6F8-A6C6-400F-A0D9-492E42AA2652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbeMiner_script1_1", "AlbeMiner_script1_1\AlbeMiner_script1_1.csproj", "{5BD67DC6-4A4B-4A6B-BB7F-A7581FD14A13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD67DC6-4A4B-4A6B-BB7F-A7581FD14A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD67DC6-4A4B-4A6B-BB7F-A7581FD14A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD67DC6-4A4B-4A6B-BB7F-A7581FD14A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD67DC6-4A4B-4A6B-BB7F-A7581FD14A13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5ABEB0F5-8868-4639-936C-31EB4A097A4A} = {8E5BB47E-4306-4622-AE69-7260F1833602}
+		{729AAAB4-1A78-4F2B-9C7B-C5EE42DD3DBA} = {6B996627-A087-43CF-A7FB-E46D163F6642}
+		{8029BDB7-5D13-4210-B44C-A2E2F875F58E} = {54431445-4FEC-4019-9E85-218829898183}
+		{BFA4A6F8-A6C6-400F-A0D9-492E42AA2652} = {8029BDB7-5D13-4210-B44C-A2E2F875F58E}
+		{5BD67DC6-4A4B-4A6B-BB7F-A7581FD14A13} = {BFA4A6F8-A6C6-400F-A0D9-492E42AA2652}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19F471B9-CA2E-4294-B31F-88860FC9F827}
+	EndGlobalSection
+EndGlobal
