@@ -68,7 +68,7 @@ namespace AlbeMiner_script1_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-	     engine.GenerateInformation("Jello's World")
+	     engine.GenerateInformation("Jello's World was one of hard rock")
 		}
 	}
 }
